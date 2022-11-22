@@ -4,6 +4,112 @@
     box-sizing: border-box;
 }
 
+/* General */
+.sect{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    color: #fffffe;
+    border-bottom: 10px solid #222222;
+}
+
+.desc{
+    width: 600px;
+    margin: auto;
+}
+
+/* Header */
+header{
+    background-color: transparent;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
 .n-logo{
-    width: 10%;
+    width: 15%;
+}
+
+.sign-btn{
+    background-color: #E50914;
+  
+}
+
+.sign-btn .nav-link{
+    text-decoration: none;
+}
+
+/* Section One */
+.section-one{
+    background-image: url(images/Nbackground.jpg);
+    /* background-image: linear-gradient(0deg, rgba(0,0,0,.8), transparent 60%, rgba(0, 0, 0, 0.112)); */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content{
+    color: #fffffe;
+}
+
+input{
+
+}
+
+/* Section Two */
+.tv-pic{
+    width: 85%;
+}
+
+/* Section Three */
+.phone-pic{
+    width: 85%;
+}
+
+/* Section Four */
+.section-four{
+    background-color: #000;
+    color: #fffffe;
+    padding: 50px;
+    border-bottom: 10px solid #222222;
+}
+
+/* Section Five */
+.kids-pic{
+    width: 90%;
+}
+
+/* Section Six */
+.section-six{
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #000;
+    color: #fffffe;
+    text-align: center;
+    border-bottom: 10px solid #222222;
+}
+
+.big-box{
+    padding: 40px 0;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: #303030;
 }
